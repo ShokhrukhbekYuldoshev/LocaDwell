@@ -123,17 +123,3 @@ This section provides detailed information about the API endpoints of our applic
 | `POST`   | `/api/media/create/`          | Create a new media              |
 | `PUT`    | `/api/media/<int:pk>/update/` | Update media details            |
 | `DELETE` | `/api/media/<int:pk>/delete/` | Delete a media                  |
-
-## 🚀 Installation
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/ShokhrukhbekYuldoshev/locadwell
-    ```
-
-2. **Navigate to the `locadwell` directory:**
-
-    ```bash
-    cd locadwell
-    ```
