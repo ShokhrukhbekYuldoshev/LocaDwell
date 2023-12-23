@@ -14,6 +14,8 @@ class Review(models.Model):
         ]
     )
     comment = models.TextField(blank=True, null=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return f"{self.rating} star review for Reservation #{self.reservation_id} by {self.reservation.user}"

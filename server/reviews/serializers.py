@@ -21,6 +21,8 @@ class ReviewSerializer(serializers.ModelSerializer):
             "reservation",
             "rating",
             "comment",
+            "created_at",
+            "updated_at",
             "user",
             "room",
         )

@@ -52,7 +52,7 @@ class UserLogoutView(APIView):
 class UserListView(generics.ListAPIView):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserSerializer
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
 
 
 class UserCreateView(generics.CreateAPIView):
@@ -77,7 +77,7 @@ class UserCreateView(generics.CreateAPIView):
 class UserRetrieveView(generics.RetrieveAPIView):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserSerializer
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
 
 
 class UserUpdateView(generics.UpdateAPIView):

@@ -13,7 +13,7 @@ interface Room {
     hasInternet: boolean;
     price: number;
     publishedAt: Date;
-    ownerId: number; // Assuming owner is another model with an id field
+    ownerId: number;
     createdAt: Date;
     updatedAt: Date;
     latitude: number;
