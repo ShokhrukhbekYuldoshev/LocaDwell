@@ -4,6 +4,8 @@
 
 Full stack web application that allows users to book rooms in hotels and leave reviews about their experience. The application is built using the Django REST Framework and Next.js.
 
+NOTE: This project is still in development. Frontend is not yet implemented.
+
 ## 💻 Technology
 
 | Technology            | Use                                |
@@ -45,55 +47,55 @@ See [server/README.md](server/README.md) for API documentation.
 
 3.  **Backend:**
 
-    1. **Navigate to the `server` directory:**
+        1. **Navigate to the `server` directory:**
 
-        ```bash
-        cd server
-        ```
+            ```bash
+            cd server
+            ```
 
-    2. **Install the dependencies:**
+        2. **Install the dependencies:**
 
-        ```bash
-        pip install -r requirements.txt
-        ```
+            ```bash
+            pip install -r requirements.txt
+            ```
 
-    3. **Run the migrations:**
+        3. **Run the migrations:**
 
-        ```bash
-        python manage.py migrate
-        ```
+            ```bash
+            python manage.py migrate
+            ```
 
-    4. **Create a virtual environment:**
+        4. **Create a virtual environment:**
 
-        ```bash
-        python -m venv .venv
-        ```
+            ```bash
+            python -m venv .venv
+            ```
 
-    5. **Activate the virtual environment:**
+        5. **Activate the virtual environment:**
 
-        For Linux/MacOS:
+            For Linux/MacOS:
 
-        ```bash
-        source .venv/bin/activate
-        ```
+            ```bash
+            source .venv/bin/activate
+            ```
 
-        For Windows:
+            For Windows:
 
-        ```bash
-        .venv\Scripts\activate
-        ```
+            ```bash
+            .venv\Scripts\activate
+            ```
 
-    6. **Install the dependencies:**
+        6. **Install the dependencies:**
 
-        ```bash
-        pip install -r requirements.txt
-        ```
+            ```bash
+            pip install -r requirements.txt
+            ```
 
-    7. **Run the server:**
+        7. **Run the server:**
 
-        ```bash
-        python manage.py runserver
-        ```
+            ```bash
+            python manage.py runserver
+            ```
 
 4.  **Frontend:**
 
