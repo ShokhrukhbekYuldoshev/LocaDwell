@@ -8,18 +8,19 @@ NOTE: This project is still in development. Frontend is not yet implemented.
 
 ## 💻 Technology
 
-| Technology            | Use                                |
-| --------------------- | ---------------------------------- |
-| Python                | Main backend programming language  |
-| Django                | Web framework                      |
-| Django REST Framework | Toolkit for building Web APIs      |
-| SQLite3               | Database                           |
-| SimpleJWT             | Authentication                     |
-| TypeScript            | Main frontend programming language |
-| Next.js               | Frontend framework                 |
-| React.js              | JavaScript library                 |
-| Tailwind CSS          | CSS framework                      |
-| Shadcn                | UI components                      |
+| Technology               | Use                                |
+| ------------------------ | ---------------------------------- |
+| Python                   | Main backend programming language  |
+| Django                   | Web framework                      |
+| Django REST Framework    | Toolkit for building Web APIs      |
+| SQLite3                  | Database                           |
+| SimpleJWT                | Authentication                     |
+| TypeScript               | Main frontend programming language |
+| Next.js                  | Frontend framework                 |
+| React.js                 | JavaScript library                 |
+| Tailwind CSS             | CSS framework                      |
+| Shadcn                   | UI components                      |
+| Redux Toolkit, RTK Query | State management, data fetching    |
 
 ## 🎁 Features
 

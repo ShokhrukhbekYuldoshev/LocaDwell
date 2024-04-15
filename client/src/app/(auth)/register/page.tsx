@@ -21,17 +21,15 @@ import { Input } from '@/components/ui/input';
 import Link from 'next/link';
 import { useForm, FormProvider } from 'react-hook-form';
 
-export default function LoginPage() {
+export default function RegisterPage() {
     const form = useForm();
 
     return (
         <div className='grid h-screen place-items-center'>
             <Card className='w-[350px]'>
                 <CardHeader>
-                    <CardTitle>Login</CardTitle>
-                    <CardDescription>
-                        Welcome back! Please log in.
-                    </CardDescription>
+                    <CardTitle>Register</CardTitle>
+                    <CardDescription>Create a new account</CardDescription>
                 </CardHeader>
                 <CardContent>
                     <FormProvider {...form}>
@@ -72,10 +70,10 @@ export default function LoginPage() {
                     </FormProvider>
                 </CardContent>
                 <CardFooter>
-                    <Button className='w-full'>Log In</Button>
+                    <Button className='w-full'>Register</Button>
                 </CardFooter>
                 <CardFooter>
-                    <Link href='/auth/register'>Dont have an account?</Link>
+                    <Link href='/login'>Already have an account?</Link>
                 </CardFooter>
             </Card>
         </div>
